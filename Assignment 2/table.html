@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="2px"
+        bgcolor="pink"
+        cellspacing="2px"
+        cellpadding="10px"
+        width="400px">
+        <caption>Simple Table</caption>
+        <tr>
+            <th>S. no</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Mohit</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kunal</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sahil</td>
+            <td>14</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <table border="1">
+        <caption>Nested Table</caption>
+        <thead style="color: red;">
+            <tr>
+                <th scope="col">coloumn 1</th>
+                <th>coloumn 2</th>
+                <th>coloumn 3</th>
+            </tr>
+        </thead>
+        <tbody style="color: green;">
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 1</td>
+                <td>
+                    <table border="2">
+                        <tr>
+                            <td>col 2</td>
+                            <td>col 2</td>
+                        </tr>
+                        <tr>
+                            <td>col 1</td>
+                            <td>col 2</td>
+
+                        </tr>
+                    </table>
+                </td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+            </tr>
+        </tbody>
+        <tfoot style="color: red;">
+            <tr>
+                <th>coloumn 1</th>
+                <th>coloumn 2</th>
+                <th>coloumn 3</th>
+            </tr>
+        </tfoot>
+    </table>
+    <br><br>
+
+    <br><br>
+    <table border="1">
+        <caption>Modified Example</caption>
+        <tr>
+            <th scope="row">Row 1</th>
+            <td><img src="cat.jpg"
+                    </td>
+            <td colspan="2"><a href="https://www.google.com">Google</a> </a></td>
+            <td>ggc</td>
+
+        </tr>
+        <tr>
+            <th rowspan="3">Row 2</th>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
