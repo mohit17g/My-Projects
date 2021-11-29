@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Input Element</h1>
+         <ol>
+            <h3>
+                Create a simple form containing all the input,
+                inlcude select & textarea in the form
+            </h3>
+        </ol>    
+        <hr>
+        <form action="somefile.php" method="post">
+            <table>
+                <h3>Application Form</h4>
+                <td>Name:-</td>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" name="username"/></td>
+                    <td>Last Name</td>
+                    <td><input type="text" name="username"/></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" name="phone number"/></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="text" name="age"/></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gender"/>M
+                        <input type="radio" name="gender"/>F</td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td><input type="checkbox" name="html"/>HTML
+                        <input type="checkbox" name="css"/>CSS
+                        <input type="checkbox" name="Javascript"/>Javascript</td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><select>
+                        <option>Bagaha</option>
+                        <option>Delhi</option>
+                        <option>Pune</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Bio</td>
+                    <td><textarea>Hello...</textarea></td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td><input type="date"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Register"/>
+                    <input type="reset"/></td>
+                </tr>
+            </table>
+
+        </form>
+</body>
+</html>
